@@ -1,0 +1,11 @@
+venv/
+.venv-sagemaker/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+data/real_estate.db
+app/data/
+deployment/artifacts/
+models/housing_regression_model.joblib
+google-cloud-sdk/

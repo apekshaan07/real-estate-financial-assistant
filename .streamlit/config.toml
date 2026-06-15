@@ -1,0 +1,9 @@
+[server]
+headless = true
+
+[runner]
+# Avoid macOS FSEvents crashes in some environments.
+fastReruns = true
+
+[browser]
+gatherUsageStats = false

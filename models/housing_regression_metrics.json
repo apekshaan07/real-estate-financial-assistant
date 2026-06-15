@@ -1,0 +1,15 @@
+{
+  "rmse":0.5055394416,
+  "mae":0.3275553145,
+  "r2_score":0.804969188,
+  "features":[
+    "MedInc",
+    "HouseAge",
+    "AveRooms",
+    "AveBedrms",
+    "Population",
+    "AveOccup",
+    "Latitude",
+    "Longitude"
+  ]
+}
