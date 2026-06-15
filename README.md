@@ -268,9 +268,10 @@ Do **not** commit `.env` (already in `.gitignore`).
 Add these to your course submission and Google Drive README:
 
 ```text
-Public deployment URL: https://YOUR-APP.streamlit.app
-GitHub repository:       https://github.com/YOUR_USERNAME/real-estate-financial-assistant
-Google Drive folder:     https://drive.google.com/...
+Public deployment URL: https://real-estate-financial-assistant-07.streamlit.app/
+GitHub repository: https://github.com/apekshaan07/real-estate-financial-assistant
+Google Drive folder: https://drive.google.com/drive/folders/1_yN5reWC-yJy1NPsiSHQGyp12uAyxeNH
+
 ```
 
 ## Google Drive Submission Package
