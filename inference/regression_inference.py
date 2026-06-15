@@ -19,6 +19,11 @@ FEATURE_COLUMNS = [
 
 
 def load_model():
+    if not MODEL_PATH.exists():
+        raise FileNotFoundError(
+            f"Local regression model not found at {MODEL_PATH}. "
+            "Configure SAGEMAKER_REGRESSION_ENDPOINT with valid AWS credentials on Streamlit Cloud."
+        )
     return joblib.load(MODEL_PATH)
 
 
